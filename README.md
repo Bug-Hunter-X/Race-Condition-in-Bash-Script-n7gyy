@@ -1,0 +1,2 @@
+# Race Condition in Bash Script
+This repository demonstrates a race condition that can occur in bash scripts when multiple processes access and modify the same file concurrently.  The script `bug.sh` showcases the problem, while `bugSolution.sh` provides a solution using file locking to prevent race conditions.  This is a common error in concurrent programming that can lead to unexpected and hard-to-debug results. The solution highlights the importance of proper synchronization mechanisms when dealing with shared resources.
